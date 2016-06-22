@@ -1,0 +1,156 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body {
+	margin: 0;
+}
+
+.submit-button:focus {outline:0;}
+
+.wrapper {
+	width: 1024px;
+	height: 769px;
+}
+
+.question {
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	text-align: center;
+	margin: 0 auto;
+	width: 800px;
+}
+
+.ratings {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.radio-container {
+	width: 46px;
+	float: left;
+	margin: 0 7px;
+}
+
+#one {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/one.png");
+}
+
+#two {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/two.png");
+}
+
+#three {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/three.png");
+}
+
+#four {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/four.png");
+}
+
+#five {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/five.png");
+}
+
+#six {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/six.png");
+}
+
+#seven {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/seven.png");
+}
+
+#eight {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/eight.png");
+}
+
+#nine {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/nine.png");
+}
+
+#ten {
+	width: 46px;
+	height: 46px;
+	background-image: url("../img/numbers/ten.png");
+}
+
+label {
+ 	cursor: pointer;   
+}
+
+.radio-item{
+    display: none !important;
+}
+
+#radio-one:checked + label #one {
+    background-image: url("../img/numbers/one-active.png");
+}
+
+#radio-two:checked + label #two {
+    background-image: url("../img/numbers/two-active.png");
+}
+
+#radio-three:checked + label #three {
+    background-image: url("../img/numbers/three-active.png");
+}
+
+#radio-four:checked + label #four {
+    background-image: url("../img/numbers/four-active.png");
+}
+
+#radio-five:checked + label #five {
+    background-image: url("../img/numbers/five-active.png");
+}
+
+#radio-six:checked + label #six {
+    background-image: url("../img/numbers/six-active.png");
+}
+
+#radio-seven:checked + label #seven {
+    background-image: url("../img/numbers/seven-active.png");
+}
+
+#radio-eight:checked + label #eight {
+    background-image: url("../img/numbers/eight-active.png");
+}
+
+#radio-nine:checked + label #nine {
+    background-image: url("../img/numbers/nine-active.png");
+}
+
+#radio-ten:checked + label #ten {
+    background-image: url("../img/numbers/ten-active.png");
+}
+
+.button {
+	margin: 0 auto;
+	width: 298px;
+}
+
+.submit-button {
+	background-image: url("../img/next.png");
+	background-repeat: no-repeat no-repeat;
+	width: 298px;
+	height: 68px;
+	margin: 50px auto;
+}
+
+.next-button:active {
+	background-image: url("../img/next-click.png");
+}
