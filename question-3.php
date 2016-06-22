@@ -14,7 +14,7 @@ $_SESSION['answerTwo'] = $_POST['answerTwo'];
 </div>
 
 <div class="ratings">
-  <form method="post" action="question-4.php">
+  <form method="post" action="/question-4">
     <!-- One -->
     <div class="radio-container">
       <input type="radio" class="radio-item" id="radio-one" name="answerThree" value="1">

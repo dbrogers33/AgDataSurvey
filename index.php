@@ -6,7 +6,7 @@
 </div>
 
 <div class="ratings">
-  <form method="post" action="question-2.php">
+  <form method="post" action="/question-2">
     <!-- One -->
     <div class="radio-container">
       <input type="radio" class="radio-item" id="radio-one" name="answerOne" value="1">
