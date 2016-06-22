@@ -1,13 +1,12 @@
-<?php include 'connection/connect.php'; ?>
-<?php include 'template/header.php'; ?>
-
 <?php
 //start session
 session_start();
-
 //storing posted values in the session varibales
 $_SESSION['answerTwo'] = $_POST['answerTwo'];
 ?>
+
+<?php include 'connection/connect.php'; ?>
+<?php include 'template/header.php'; ?>
 
 
 <div class="question">

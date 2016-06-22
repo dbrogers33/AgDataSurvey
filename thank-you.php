@@ -1,6 +1,3 @@
-<?php include 'connection/connect.php'; ?>
-<?php include 'template/header.php'; ?>
-
 <?php
 //start session
 session_start();
@@ -16,6 +13,10 @@ $three = $_SESSION['answerThree'];
 $four  = $_SESSION['answerFour'];
 $five  = $_SESSION['answerFive'];
 ?>
+
+
+<?php include 'connection/connect.php'; ?>
+<?php include 'template/header.php'; ?>
 
 <?php
 	$sql = "INSERT INTO responses (question_one, question_two, question_three, question_four, question_five)
